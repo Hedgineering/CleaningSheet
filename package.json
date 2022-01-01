@@ -4,7 +4,8 @@
   "description": "",
   "main": "./server/index.js",
   "scripts": {
-    "devStart": "nodemon ./server/index.js"
+    "serverStart": "nodemon ./server/index.js",
+    "clientStart": "cd ./client && npm start"
   },
   "keywords": [],
   "author": "Rahul Hegde",
